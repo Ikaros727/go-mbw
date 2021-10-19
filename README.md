@@ -1,2 +1,2 @@
-# go-MBWin
-Based on user32.dll, go language is implemented to call function MessageBoxW of Windows platform
+# go-mbw
+A Go lib for call windows platform function `MessageBoxW` from `user32.dll`.
