@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	clicked, err := mbw.MessageBoxW("测试", "这里是对 MODE_OK_CANCEL 的测试", mbw.MODE_YES_NO)
+	clicked, err := mbw.MessageBoxW("Test", "This is a test for `MODE_OK_CANCEL`", mbw.MODE_OK_CANCEL)
 	fmt.Printf("clicked = %v, err = %v\n", clicked, err)
 }
